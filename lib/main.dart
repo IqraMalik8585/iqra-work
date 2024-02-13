@@ -217,6 +217,9 @@ Future<bool> onIosBackground(ServiceInstance service) async {
   log.add(DateTime.now().toIso8601String());
   await preferences.setStringList('log', log);
 
+
+
+
   return true;
 }
 
